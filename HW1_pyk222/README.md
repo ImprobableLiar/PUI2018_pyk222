@@ -33,8 +33,6 @@ and it worked, as seen from the second screenshot.
 
 Also in HW1 folder is the extra credit
 
-#HW2 PYK222
-
 To set up this repository, I used ```mkdir``` to create PUI2018_pyk222 as well as the HW1 folder.
 
 Then I used ```git init``` and ```git status``` and created README.md files using ```touch```. Then I created the repository on github, add, commit, and pushed it on there. I did the same thing adding the images to the repository as well.
