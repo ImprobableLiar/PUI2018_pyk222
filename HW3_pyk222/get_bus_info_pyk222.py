@@ -46,13 +46,25 @@ def get_busstop_distance(line, length):
 
 def fout_businfo(buslocation, busstop, busstop_distance):
     for i in range(count):
-        fout.write(str(buslocation[i]['Latitude']))
+        try:
+            fout.write(str(buslocation[i]['Latitude']))
+        except KeyError:
+            fout.write('N/A')
         fout.write(', ')
-        fout.write(str(buslocation[i]['Longitude']))
+        try:
+            fout.write(str(buslocation[i]['Longitude']))
+        except KeyError:
+            fout.write('N/A')
         fout.write(', ')
-        fout.write(busstop[i]['StopPointName'])
+        try:
+            fout.write(busstop[i]['StopPointName'])
+        except KeyError:
+            fout.write('N/A')
         fout.write(', ')
-        fout.write(busstop_distance[i]['PresentableDistance'])
+        try:
+            fout.write(busstop_distance[i]['PresentableDistance'])
+        except KeyError:
+            fout.write('N/A')
         fout.write('\n')
                    
 if not len(sys.argv) == 4:
