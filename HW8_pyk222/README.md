@@ -1,4 +1,4 @@
-##Homework 8 Assignment 1
+## Homework 8 Assignment 1
 
 ![Alt text](../HW8_pyk222/plot.png)
 
@@ -10,7 +10,7 @@ of NYC traffic from 2012-2013 on streets where they have censors.
 
 I did everything myself here. 
 
-##Homework 8 Assignment 2
+## Homework 8 Assignment 2
 
 Link to paper: 
 
