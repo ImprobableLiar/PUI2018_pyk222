@@ -8,8 +8,6 @@ The Assignment utilizes two kernels: I first booted it up in the ADS kernel and 
 
 ## Homework 11 Assignment 2
 
-[Alt text](../HW8_pyk222/NewPlot.png)
+[Alt text](../HW8_pyk222/NewPlot.PNG)
 
-
-
-I did everything myself here.
+I did everything myself here. I got comments for the previous graph, and not much suggestions other than to either get rid of the legend or add more plots to it. So I did the latter.
